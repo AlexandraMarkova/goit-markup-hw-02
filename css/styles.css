@@ -156,3 +156,34 @@ body {
 }
 
 /*portfolio.html*/
+.button-blue {
+  font-weight: 500;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.button-gray {
+  font-weight: 500;
+  background-color: #f5f4fa;
+  color: var(--black-two);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--gray-one);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
