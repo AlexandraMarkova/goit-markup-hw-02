@@ -26,8 +26,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo .logo-color {
+.logo .blue {
   color: var(--blue);
+}
+
+.logo .white {
+  color: var(--white);
 }
 
 .list {
@@ -67,6 +71,11 @@ body {
 }
 
 /* herro */
+
+.herro {
+  background-color: #2f303a;
+}
+
 .herro-title {
   font-weight: 700;
   color: var(--white);
@@ -76,8 +85,10 @@ body {
   letter-spacing: 0.06em;
 }
 
-.herro-button {
+/* button */
+.button {
   font-weight: 700;
+  background-color: var(--blue);
   color: var(--white);
   font-size: 16px;
   line-height: 1.9;
@@ -85,7 +96,6 @@ body {
 }
 
 /* section */
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -94,7 +104,6 @@ body {
 }
 
 /* featyre */
-
 .featyre .title {
   font-weight: 700;
   text-transform: uppercase;
@@ -112,7 +121,6 @@ body {
 }
 
 /* team */
-
 .team .name {
   font-weight: 500;
   font-size: 16px;
@@ -126,4 +134,23 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+/* address */
+.contacts-container {
+  background-color: #2f303a;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.contacts-container .connection {
+  font-weight: 400;
+  color: var(--gray-two);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
